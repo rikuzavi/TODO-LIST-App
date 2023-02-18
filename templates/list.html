@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<style>
+    button:hover,
+    button:focus {
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    transform: translateY(-0.30em);
+    }
+    .goback:hover,
+    .goback:focus {
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    transform: translateY(-0.30em);
+    }
+</style>
+<meta charset="utf-8"/>
+<title>
+   TASK LIST
+  </title>
+</head>
+<body style="background-color: #193718">
+<h2 style="color:#FF8BFF">
+   LIST OF THE TASK
+  </h2>
+<ol style="color:#FD8A8A">
+<li>
+    NICE WORK
+   </li>
+
+<li>
+    HAVE TO MAKE DINNER
+   </li>
+</ol>
+<hr align="left" width="60%"/>
+<h4 style="color:#FF8BFF">
+   PROVIDE THE NUMBER IN THE LIST TO DELETE THE TASK
+  </h4>
+<form action="view" method="post">
+<input id="task" name="text" placeholder=" GIVE A VALID NUMBER TO DELETE" style="height:40px;width:250px; border-radius: 15px;border: 6px white;top:10px type=" text"=""/>
+<p>
+<button class="grey" style="height:45px;width:120px;background-color:#FF8BFF;border: 1px #FF8BFF;border-radius: 15px">
+     DELETE
+    </button>
+</p>
+</form>
+<form>
+<input class="goback" onclick="history.back()" style="height:45px;width:120px;background-color:#FF8BFF;border: 1px #FF8BFF;border-radius: 15px" type="button" value="PREV PAGE"/>
+</form>
+<h4 style="color:#FF8BFF">
+   MAKE SURE TO PROVIDE INTEGER INPUT
+  </h4>
+<h4 style="color:#FF8BFF">
+   IT TAKES ONE INPUT AT A TIME AND DELETES ONE TASK AT A TIME
+  </h4>
+<br/>
+<br/>
+<br/>
+<hr style="width: 10%;border-style: dotted none none;border-width: 5px;border-color: #FF8BFF">
+</hr></body>
+<footer>
+<center>
+<h5 style="color:#FF8BFF">
+    @Rikuzavi 2023
+   </h5>
+</center>
+</footer>
+</html>

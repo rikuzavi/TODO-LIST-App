@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TO DO LIST</title>
+    <style>
+    button:hover,
+    button:focus {
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    transform: translateY(-0.30em);
+    }
+    .goback:hover,
+    .goback:focus {
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    transform: translateY(-0.30em);
+    }
+</style>
+</head>
+<body style="background-color: #193718">
+    <div>
+        <center>
+            <br>
+            <h2 style="color:#FF8BFF">𝒲𝐸𝐿𝒞𝒪𝑀𝐸  𝒯𝒪  𝒴𝒪𝒰𝑅  𝒫𝐸𝑅𝒮𝒪𝒩𝒜𝐿  𝒯𝒪𝒟𝒪  𝐿𝐼𝒮𝒯</h2>
+            <img src="static/img.png" style="height:200px;width:700px">
+            <br>
+            <br>
+            <form action="add" method="post">
+                <input type="text" id="task" name="text" placeholder="WRITE THE TASK YOU WANT TO ADD IN YOUR LIST " style="height:50px;width:400px; border-radius: 15px;border: 6px white;top:10px">
+                <p><button class="add_button" style="height:45px;width:120px;background-color:#FF8BFF;border: 1px #FF8BFF;border-radius: 15px">ADD</button></p>
+            </form>
+            <form>
+                <input class="goback" style="height:45px;width:120px;background-color:#FF8BFF;border: 1px #FF8BFF;border-radius: 15px" onclick="history.back()" type="button" value="PREV PAGE"/>
+            </form>
+        </center>
+    </div>
+    <br>
+    <center><h4 style="color:#FF8BFF"> GO TO HOME PAGE AND PRESS VIEW TO SHOW THE LIST</h4></center>
+    <br>
+    <br>
+    <hr style="width: 10%;border-style: dotted none none;border-width: 5px;border-color: #FF8BFF">
+</body>
+<footer>
+    <center>
+        <h5 style="color:#FF8BFF">@RikuZavi   2023</h5>
+    </center>
+</footer>
+</html>
